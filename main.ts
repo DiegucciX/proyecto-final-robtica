@@ -1,5 +1,5 @@
 radio.onReceivedNumber(function (receivedNumber) {
-    if (true) {
+    if (receivedNumber == 7) {
         basic.showLeds(`
             # . . . #
             . # . # .
